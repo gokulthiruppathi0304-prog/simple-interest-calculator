@@ -1,0 +1,10 @@
+{
+  echo '$ git branch -a'
+  git branch -a
+  echo
+  echo '$ git status'
+  git status
+} > github-branches
+git add github-branches
+git commit -m "Add GitHub branches status"
+git push origin main
